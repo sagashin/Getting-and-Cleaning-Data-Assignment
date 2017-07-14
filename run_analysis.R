@@ -44,7 +44,7 @@ melt <- as.data.table(melt_data)
 tidy_data <- dcast(melt, subject+activity ~ variable, mean)
 
 ##export tidy_data
-write.table(tidy_data, file = "tidy_data.txt")
+write.table(tidy_data, file = "tidy_data.txt", row.names = FALSE)
 
 
 
