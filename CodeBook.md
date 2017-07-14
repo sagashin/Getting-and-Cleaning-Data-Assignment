@@ -1,3 +1,13 @@
+Data Description 
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+Data Location
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+Summary of code steps
+
 1. read all the necessary data in R
 2. assign names to columns in each data
 3. combine train and test data
