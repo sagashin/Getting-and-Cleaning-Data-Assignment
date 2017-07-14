@@ -1,6 +1,8 @@
 ##Set working directory
 setwd("C:/Users/S.Sagara/Documents/Data Science/coursera/R specialization/Getting and clearning data/week4")
 
+library(data.table)
+
 ##Read data
 X_train <- read.table("X_train.txt",sep = "")
 y_train <- read.table("y_train.txt",sep = "")
